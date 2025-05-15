@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#EE9CA7, #FFDDE1);
+    padding: 10px;
+}
+
+.bmi-calc {
+    width: 100%;
+    max-width: 600px;
+    background-color: #FFF;
+    margin: 100px auto 20px;
+    padding: 50px 40px 50px;
+    border-radius: 15px;
+}
+
+.bmi-calc-ins {
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.bmi-calc-ins input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.bmi-calc button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #FF758C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.bmi-calc button:hover {
+    background-color: red;
+}
+
+.bmi-calc p {
+    margin-top: 15px;
+}
+
+.bmi-calc #result {
+    margin-top: 20px;
+}
