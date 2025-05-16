@@ -60,3 +60,71 @@
 .bmi-calc #result {
     margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 8px;
+    }
+    .bmi-calc {
+        margin: 60px auto 20px;
+        padding: 40px 30px;
+    }
+    .bmi-calc-ins input {
+        font-size: 14px;
+    }
+    .bmi-calc button {
+        padding: 12px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+    .bmi-calc {
+        margin: 40px auto 15px;
+        padding: 30px 20px;
+    }
+    .bmi-calc-ins input {
+        font-size: 13px;
+        padding: 8px;
+    }
+    .bmi-calc p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .bmi-calc button {
+        padding: 10px;
+        font-size: 13px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding: 3px;
+    }
+    .bmi-calc {
+        margin: 30px auto 10px;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+    .bmi-calc-ins input {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .bmi-calc p {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+    .bmi-calc button {
+        padding: 8px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .bmi-calc #result {
+        font-size: 14px;
+    }
+}
